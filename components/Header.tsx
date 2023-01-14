@@ -27,16 +27,19 @@ export default function Header({}: Props) {
           url="https://youtube.com/"
           bgColor="transparent"
           fgColor="gray"
+          target="_blank"
         />
         <SocialIcon
           url="https://youtube.com/"
           bgColor="transparent"
           fgColor="gray"
+          target="_blank"
         />
         <SocialIcon
           url="https://youtube.com/"
           bgColor="transparent"
           fgColor="gray"
+          target="_blank"
         />
       </motion.div>
       <motion.div
