@@ -1,14 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-type Props = { directionLeft?: boolean };
+type Props = {};
 
-export default function Skill({ directionLeft }: Props) {
+export default function Skill({}: Props) {
   return (
     <div className="group relative flex cursor-pointer">
       <motion.img
-        initial={{ x: directionLeft ? -200 : 200, opacity: 0 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
         src="/photo.jpg"
