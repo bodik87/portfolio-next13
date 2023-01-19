@@ -22,10 +22,7 @@ export default function ContactMe({}: Props) {
       <div className="flex relative overflow-hidden flex-col text-left md:flex-row px-5 justify-evenly items-center mx-auto z-0">
         <div className="flex flex-col gap-4">
           <h4 className="text-2xl md:text-3xl font-semibold text-center px-5">
-            Форма для звя'зку{" "}
-            <span className="underline decoration-[#F7AB0A]/50 underline-offset-4">
-              Контакти.
-            </span>
+            Контакти
           </h4>
 
           <div className="space-y-4">
