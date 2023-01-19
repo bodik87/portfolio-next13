@@ -17,4 +17,25 @@ export const projects = [
       Технології, що використані в додатку: React JS, Redux, react-router-dom, scss.`,
     url: "https://cards-delta-mocha.vercel.app/",
   },
+  {
+    id: 3,
+    title: "Тестовий проект в розробцi",
+    image: "/ideas.png",
+    description: `Тестовий проект, в якому реалiзую певнi iдеї`,
+    url: "https://beautiful-design.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Верстка HTML + CSS",
+    image: "/html.png",
+    description: `Приклад вестки з етапу вивчення HTML + CSS`,
+    url: "https://beautiful-design.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Верстка HTML + CSS",
+    image: "/html2.png",
+    description: `Приклад вестки з етапу вивчення HTML + CSS`,
+    url: "https://beautiful-design.vercel.app/",
+  },
 ];
