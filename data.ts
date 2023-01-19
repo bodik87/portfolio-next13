@@ -29,13 +29,13 @@ export const projects = [
     title: "Верстка HTML + CSS",
     image: "/html.png",
     description: `Приклад вестки з етапу вивчення HTML + CSS`,
-    url: "https://beautiful-design.vercel.app/",
+    url: "https://bodik87.github.io/other-projects/sites/The-box/index.html",
   },
   {
     id: 5,
     title: "Верстка HTML + CSS",
     image: "/html2.png",
     description: `Приклад вестки з етапу вивчення HTML + CSS`,
-    url: "https://beautiful-design.vercel.app/",
+    url: "https://bodik87.github.io/other-projects/sites/Furniture/index.html",
   },
 ];
