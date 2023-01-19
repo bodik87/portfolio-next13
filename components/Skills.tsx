@@ -7,8 +7,6 @@ import { PAGE_TITLES_UA, PAGE_TITLES_ENG } from "../CONSTANTS";
 type Props = {};
 
 export default function Skills({}: Props) {
-  console.log(SiRedux);
-
   return (
     <>
       <h3 className="sectionTitle">{PAGE_TITLES_UA.skills}</h3>
