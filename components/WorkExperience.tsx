@@ -1,13 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ExperienceCard from "./ExperienceCard";
+import { TEXT_UA } from "@/CONSTANTS";
 
 type Props = {};
 
 export default function WorkExperience({}: Props) {
   return (
     <>
-      <h3 className="sectionTitle">Experience</h3>
+      <h3 className="sectionTitle">{TEXT_UA.experience}</h3>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

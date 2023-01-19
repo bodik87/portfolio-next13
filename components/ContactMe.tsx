@@ -1,6 +1,7 @@
 import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import { TEXT_UA } from "@/CONSTANTS";
 
 type Inputs = {
   name: string;
@@ -17,17 +18,17 @@ export default function ContactMe({}: Props) {
     (window.location.href = `mailto:bsshul@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`);
   return (
     <>
-      <h3 className="sectionTitle">Contact</h3>
-      <div className="flex relative overflow-hidden flex-col text-left md:flex-row max-w-full px-10 justify-evenly items-center mx-auto z-0">
-        <div className="flex flex-col space-y-10 ">
-          <h4 className="text-3xl md:text-4xl font-semibold text-center px-5">
-            I have got just what you need.{" "}
+      <h3 className="sectionTitle">{TEXT_UA.contact}</h3>
+      <div className="flex relative overflow-hidden flex-col text-left md:flex-row px-5 justify-evenly items-center mx-auto z-0">
+        <div className="flex flex-col gap-4">
+          <h4 className="text-2xl md:text-3xl font-semibold text-center px-5">
+            Форма для звя'зку{" "}
             <span className="underline decoration-[#F7AB0A]/50 underline-offset-4">
-              Lets Talk.
+              Контакти.
             </span>
           </h4>
 
-          <div className="space-y-8">
+          <div className="space-y-4">
             <div className="flex items-center justify-center space-x-5">
               <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
               <p className="text-2xl">+380672785349</p>

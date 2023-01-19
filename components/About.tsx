@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { PAGE_TITLES_UA, PAGE_TITLES_ENG } from "../CONSTANTS";
+import { TEXT_UA, PAGE_TITLES_ENG } from "../CONSTANTS";
 
 type Props = {};
 
 export default function About({}: Props) {
   return (
     <>
-      <h3 className="sectionTitle">{PAGE_TITLES_UA.about}</h3>
+      <h3 className="sectionTitle">{TEXT_UA.about}</h3>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -25,23 +25,16 @@ export default function About({}: Props) {
           alt="Hero photo"
         />
 
-        <div className="space-y-10 px-0 md:px-6">
+        <div className="space-y-10 px-2 md:px-6">
           <h4 className="text-3xl md:text-4xl font-semibold">
-            Here is a{" "}
+            Тут мiй{" "}
             <span className="underline decoration-[#F7AB0A]/50 underline-offset-4">
-              little
+              невеличкий
             </span>{" "}
-            background
+            бекграунд
           </h4>
           <p className="text-base">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            aliquam quis quo nesciunt temporibus saepe quos odio neque omnis
-            fuga. Culpa nisi molestiae, ipsa non quisquam sunt animi. Quis error
-            corrupti sequi perferendis. Temporibus quidem rerum earum debitis.
-            Repudiandae odit, sapiente obcaecati, alias dolorum assumenda eaque
-            ducimus velit sequi nostrum vel. Deleniti cum, ullam cupiditate
-            perspiciatis eligendi vel magnam similique in minima. Veritatis,
-            minus eius rem enim laudantium reiciendis iusto.
+            {`Юридична освiта, невеличке мiсто, надзвичайно спокiйне безпроблемне життя, бiзнес, йо_ана русня, окупацiя, виїзд, Київ, фронтенд, зняття рожевих окулярiв про "швидке IT", непросто з роботою, фронтенд стає хоббi, розумiння фрази на початку навчання, що фронтенд швидко змiнюється:) I тепер щодня код, курси, вiдоси, документацiї, статтi. Мрiя стати спецiалiстом`}
           </p>
         </div>
       </motion.div>

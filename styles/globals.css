@@ -4,12 +4,15 @@
 
 @layer components {
   .sectionTitle {
-    @apply pt-24 pb-12 uppercase tracking-[20px] text-gray-500 text-2xl text-center;
+    @apply pt-24 pb-12 tracking-[20px] -mr-[20px] uppercase text-gray-500 text-2xl text-center;
   }
   .heroButton {
     @apply px-6 py-2 border border-transparent rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40;
   }
   .contactInput {
-    @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A]/40 hover:border-[#F7AB0A]/40;
+    @apply w-full outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A]/40 hover:border-[#F7AB0A]/40;
   }
+}
+body {
+  -webkit-tap-highlight-color: transparent;
 }

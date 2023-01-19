@@ -3,14 +3,15 @@ import Image from "next/image";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgoundCircles from "./BackgoundCircles";
 import Link from "next/link";
+import { TEXT_UA } from "@/CONSTANTS";
 type Props = {};
 
 export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
       "Привіт, Моє Ім'я Богдан Шуліка",
-      "Люблю_сачну_каву.tsx",
-      "<АлеКодитиЛюблюБільше />",
+      "Люблю_повалятися на диванi.tsx",
+      "<АлеКодити ЛюблюБільше />",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -26,26 +27,26 @@ export default function Hero({}: Props) {
         height={128}
         priority
       />
-      <div className="z-20">
+      <div className="z-20 px-4">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
           Frontend developer
         </h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-semibold px-10">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
         <div className="pt-5">
           <Link href="#about">
-            <button className="heroButton">Про мене</button>
+            <button className="heroButton">{TEXT_UA.about}</button>
           </Link>
           <Link href="#experience">
-            <button className="heroButton">Досвiд</button>
+            <button className="heroButton">{TEXT_UA.experience}</button>
           </Link>
           <Link href="#skills">
-            <button className="heroButton">Навички</button>
+            <button className="heroButton">{TEXT_UA.skills}</button>
           </Link>
           <Link href="#projects">
-            <button className="heroButton">Проекти</button>
+            <button className="heroButton">{TEXT_UA.projects}</button>
           </Link>
         </div>
       </div>

@@ -3,13 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { projects } from "../data";
+import { TEXT_UA } from "@/CONSTANTS";
 
 type Props = {};
 
 export default function Projects({}: Props) {
   return (
     <>
-      <h3 className="sectionTitle">Projects</h3>
+      <h3 className="sectionTitle">{TEXT_UA.projects}</h3>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
