@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { PAGE_TITLES_UA, PAGE_TITLES_ENG } from "../CONSTANTS";
 
 type Props = {};
 
 export default function About({}: Props) {
   return (
     <>
-      <h3 className="sectionTitle">About</h3>
+      <h3 className="sectionTitle">{PAGE_TITLES_UA.about}</h3>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
