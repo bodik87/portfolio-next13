@@ -21,9 +21,9 @@ export default function ContactMe({}: Props) {
       <h3 className="sectionTitle">{TEXT_UA.contact}</h3>
       <div className="flex relative overflow-hidden flex-col text-left md:flex-row px-5 justify-evenly items-center mx-auto z-0">
         <div className="flex flex-col gap-4">
-          <h4 className="text-2xl md:text-3xl font-semibold text-center px-5">
+          {/* <h4 className="text-2xl md:text-3xl font-semibold text-center px-5">
             Контакти
-          </h4>
+          </h4> */}
 
           <div className="space-y-4">
             <div className="flex items-center justify-center space-x-5">

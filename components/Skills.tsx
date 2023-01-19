@@ -20,7 +20,7 @@ export default function Skills({}: Props) {
     <>
       <h3 className="sectionTitle">{TEXT_UA.skills}</h3>
       <h3 className="text-center uppercase tracking-[3px] text-gray-500 text-sm mb-10 px-4">
-        Hover over a skill for currency profieciency
+        Вчу i продовжую вивчати
       </h3>
       <motion.div
         initial={{ opacity: 0 }}

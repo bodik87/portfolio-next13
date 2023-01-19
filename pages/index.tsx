@@ -29,14 +29,15 @@ export default function Home() {
         <section id="about">
           <About />
         </section>
-        <section id="experience">
+        {/* <section id="experience">
           <WorkExperience />
+        </section> */}
+
+        <section id="projects">
+          <Projects />
         </section>
         <section id="skills">
           <Skills />
-        </section>
-        <section id="projects">
-          <Projects />
         </section>
         <section id="contact">
           <ContactMe />
