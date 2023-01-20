@@ -39,7 +39,12 @@ export default function Projects({}: Props) {
                   </span>{" "}
                   {project.title}
                 </h4>
-                <Link href={project.url}>Деплой проекту</Link>
+                <Link
+                  href={project.url}
+                  className="text-[#5ED3F3] underline decoration-[#5ED3F3]/50 underline-offset-4 text-xl"
+                >
+                  Деплой проекту
+                </Link>
                 <p className="text-base text-center md:text-left mt-2 mb-10">
                   {project.description}
                 </p>
