@@ -19,7 +19,7 @@ export default function ContactMe({}: Props) {
   return (
     <>
       <h3 className="sectionTitle">{TEXT_UA.contact}</h3>
-      <div className="flex relative overflow-hidden flex-col text-left md:flex-row px-5 justify-evenly items-center mx-auto z-0">
+      <div className="flex relative overflow-hidden flex-col text-left md:flex-row px-5 pb-14 justify-evenly items-center mx-auto z-0">
         <div className="flex flex-col gap-4">
           {/* <h4 className="text-2xl md:text-3xl font-semibold text-center px-5">
             Контакти

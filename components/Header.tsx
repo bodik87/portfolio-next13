@@ -24,7 +24,7 @@ export default function Header({}: Props) {
         <SocialIcon
           url="https://github.com/bodik87"
           bgColor="transparent"
-          fgColor="gray"
+          fgColor="#5ED3F3"
           target="_blank"
         />
       </motion.div>
