@@ -36,7 +36,7 @@ export default function ContactMe({}: Props) {
             </div>
             <div className="flex items-center justify-center space-x-5">
               <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-              <p className="text-2xl">Kyiv</p>
+              <p className="text-2xl">Київ</p>
             </div>
           </div>
 
@@ -47,7 +47,7 @@ export default function ContactMe({}: Props) {
             <div className="flex space-x-2">
               <input
                 {...register("name")}
-                placeholder="Name"
+                placeholder={`Ім'я`}
                 className="contactInput"
                 type="text"
               />
@@ -60,20 +60,20 @@ export default function ContactMe({}: Props) {
             </div>
             <input
               {...register("subject")}
-              placeholder="Subject"
+              placeholder="Тема"
               className="contactInput"
               type="text"
             />
             <textarea
               {...register("message")}
-              placeholder="Message"
+              placeholder="Повiдомлення"
               className="contactInput"
             />
             <button
               type="submit"
               className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg"
             >
-              Submit
+              Вiдправити
             </button>
           </form>
         </div>

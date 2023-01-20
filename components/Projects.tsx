@@ -35,20 +35,11 @@ export default function Projects({}: Props) {
               <div className="px-0 md:px-10 max-w-6xl flex flex-col items-center gap-4">
                 <h4 className="text-3xl md:text-4xl font-semibold text-center">
                   <span className="underline decoration-[#F7AB0A]/50 underline-offset-4 text-2xl">
-                    Проєкт {i + 1} / {projects.length}:
+                    Проект {i + 1} / {projects.length}:
                   </span>{" "}
                   {project.title}
                 </h4>
-                <Link href={project.url}>
-                  <Image
-                    className="animate-pulse"
-                    src="/vercel_logo.svg"
-                    alt="Vercel Logo"
-                    width={80}
-                    height={40}
-                    priority
-                  />
-                </Link>
+                <Link href={project.url}>Деплой проекту</Link>
                 <p className="text-base text-center md:text-left mt-2 mb-10">
                   {project.description}
                 </p>
