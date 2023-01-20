@@ -25,7 +25,7 @@ export default function ContactMe({}: Props) {
             Контакти
           </h4> */}
 
-          <div className="space-y-4">
+          <div className="space-y-4 pb-5">
             <div className="flex items-center justify-center space-x-5">
               <PhoneIcon className="text-[#5ED3F3] h-7 w-7 animate-pulse" />
               <p className="text-2xl">+380672785349</p>
