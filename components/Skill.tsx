@@ -11,7 +11,7 @@ export default function Skill({ children, points }: Props) {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className="flex items-center justify-center rounded-full bg-[#3C3E40] border border-gray-500 object-cover w-24 h-24 md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
+        className="flex items-center justify-center rounded-full bg-gray-600 border border-gray-400 object-cover w-24 h-24 md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
       >
         {children}
       </motion.div>

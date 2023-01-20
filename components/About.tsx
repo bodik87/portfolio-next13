@@ -28,7 +28,7 @@ export default function About({}: Props) {
         <div className="space-y-10 px-2 md:px-6">
           <h4 className="text-3xl md:text-4xl font-semibold">
             Тут мiй{" "}
-            <span className="underline decoration-[#F7AB0A]/50 underline-offset-4">
+            <span className="underline decoration-[#5ED3F3]/50 underline-offset-4">
               невеличкий
             </span>{" "}
             бекграунд

@@ -28,12 +28,12 @@ export default function Hero({}: Props) {
         priority
       />
       <div className="z-20 px-4">
-        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+        <h2 className="text-sm uppercase text-gray-400 pb-2 tracking-[15px]">
           Frontend developer
         </h2>
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-semibold px-10">
           <span className="mr-3">{text}</span>
-          <Cursor cursorColor="#F7AB0A" />
+          <Cursor cursorColor="#5ED3F3" />
         </h1>
         <div className="pt-5">
           <Link href="#about">

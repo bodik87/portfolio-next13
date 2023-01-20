@@ -27,15 +27,15 @@ export default function ContactMe({}: Props) {
 
           <div className="space-y-4">
             <div className="flex items-center justify-center space-x-5">
-              <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+              <PhoneIcon className="text-[#5ED3F3] h-7 w-7 animate-pulse" />
               <p className="text-2xl">+380672785349</p>
             </div>
             <div className="flex items-center justify-center space-x-5">
-              <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+              <EnvelopeIcon className="text-[#5ED3F3] h-7 w-7 animate-pulse" />
               <p className="text-2xl">bsshul@gmail.com</p>
             </div>
             <div className="flex items-center justify-center space-x-5">
-              <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+              <MapPinIcon className="text-[#5ED3F3] h-7 w-7 animate-pulse" />
               <p className="text-2xl">Київ</p>
             </div>
           </div>
@@ -71,7 +71,7 @@ export default function ContactMe({}: Props) {
             />
             <button
               type="submit"
-              className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg"
+              className="bg-[#5ED3F3] py-5 px-10 rounded-md text-black font-bold text-lg hover:bg-[#9eeaff] transition-all"
             >
               Вiдправити
             </button>

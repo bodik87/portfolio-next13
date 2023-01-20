@@ -17,7 +17,7 @@ export default function Projects({}: Props) {
         transition={{ duration: 1.5 }}
         className="flex relative overflow-hidden flex-col text-left md:flex-row max-w-full px-10 justify-evenly items-center mx-auto z-0"
       >
-        <div className="w-full flex gap-5 overflow-x-scroll snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 px-5 z-10">
+        <div className="w-full flex gap-5 overflow-x-scroll snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#5ED3F3]/80 px-5 z-10">
           {projects.map((project, i) => (
             <div
               key={project.id}
@@ -34,7 +34,7 @@ export default function Projects({}: Props) {
               />
               <div className="px-0 md:px-10 max-w-6xl flex flex-col items-center gap-4">
                 <h4 className="text-3xl md:text-4xl font-semibold text-center">
-                  <span className="underline decoration-[#F7AB0A]/50 underline-offset-4 text-2xl">
+                  <span className="underline decoration-[#5ED3F3]/50 underline-offset-4 text-2xl">
                     Проект {i + 1} / {projects.length}:
                   </span>{" "}
                   {project.title}
@@ -48,7 +48,7 @@ export default function Projects({}: Props) {
           ))}
         </div>
 
-        <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[300px] -skew-y-12" />
+        <div className="w-full absolute top-[30%] bg-[#5ED3F3]/10 left-0 h-[300px] -skew-y-12" />
       </motion.div>
     </>
   );

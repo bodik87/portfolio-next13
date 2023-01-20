@@ -14,7 +14,7 @@ const montserrat = Montserrat({ subsets: ["cyrillic"] });
 
 export default function Home() {
   return (
-    <div className="bg-[#1E1E1E] text-white overflow-y-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
+    <div className="bg-[#2E3040] text-white overflow-y-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#5ED3F3]/80">
       <div className={montserrat.className}>
         <Head>
           <title>bodik_87 Portfolio</title>
