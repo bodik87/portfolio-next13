@@ -22,7 +22,7 @@ export const projects = [
     title: "Notes",
     image: "/notes.png",
     description:
-      "Full stack додаток для запису нотаток в базу даних на MERN-стеці: MongoDB, Express, ReactJS, NodeJS. Стор побудований на зв'язці RTK Query + Redux Toolkit. Додаток не має авторизації і метою його розробки було вивчення RTK Query. Також на ньому тестувалося створення PWA-версії. Версія з авторизацією на JSON Web Tokens розміщена на Github та знаходиться в процесі розробки.",
+      "Full stack додаток для запису нотаток в базу даних на MERN-стеці: MongoDB, Express, ReactJS, NodeJS. Стор побудований на зв'язці RTK Query + Redux Toolkit. Адаптований до зміни темної теми в системі. Додаток не має авторизації і метою його розробки було вивчення RTK Query. Також на ньому тестувалося створення PWA-версії. Версія з авторизацією на JSON Web Tokens розміщена на Github та знаходиться в процесі розробки.",
     url: "https://simple-client.vercel.app/",
   },
   {
