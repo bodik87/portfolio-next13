@@ -18,6 +18,14 @@ export const projects = [
     url: "https://cards-delta-mocha.vercel.app/",
   },
   {
+    id: 6,
+    title: "Notes",
+    image: "/notes.png",
+    description:
+      "Full stack додаток для запису нотаток в базу даних на MERN-стеці: MongoDB, Express, ReactJS, NodeJS. Стор побудований на зв'язці RTK Query + Redux Toolkit. Додаток не має авторизації і метою його розробки було вивчення RTK Query. Також на ньому тестувалося створення PWA-версії. Версія з авторизацією на JSON Web Tokens розміщена на Github та знаходиться в процесі розробки.",
+    url: "https://simple-client.vercel.app/",
+  },
+  {
     id: 3,
     title: "Тестовий проект в розробцi",
     image: "/ideas.jpg",
