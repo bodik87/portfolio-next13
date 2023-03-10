@@ -1,6 +1,15 @@
 export const projects = [
   {
     id: 1,
+    title: "ПУЗО",
+    image: "/puzo_1.png",
+    description: `Калькулятор калорій.
+      
+      Технології, що використані в додатку: React JS, Redux Toolkit, redux-persist,  react-router-dom, HeadlessUI, date-fns, tailwindcss.`,
+    url: "https://magenta-malasada-41c3b4.netlify.app/",
+  },
+  {
+    id: 2,
     title: "Habits",
     image: "/habit_1.png",
     description: `WEB версія трекера звичок. В додатку можна створювати, редагувати та видаляти звички і слідкувати за їх прогресом. Наприклад людина вирішує бігати і ставить на меті це робити мінімум 30 разів. Вона створює звичку, виставляє бажану кількість і починає відмічати виконання в кожний результативний день.
@@ -9,7 +18,7 @@ export const projects = [
     url: "https://habits-lime.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Cards",
     image: "/cards_1.jpg",
     description: `Додаток для запису іноземних слів. Користувач створює категорію з 9 картками, в яких указує слово та переклад. Кожна картка має приємну анімацію, коли перевертається під час перевірки перекладу слова. А кожна категорія має поле вводу, де можна написати невеличкий текст, для закріплення слів.
@@ -26,21 +35,21 @@ export const projects = [
     url: "https://simple-client.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Тестовий проект в розробцi",
     image: "/ideas.jpg",
     description: `Тестовий проект, в якому реалiзую певнi iдеї`,
     url: "https://beautiful-design.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Верстка HTML + CSS",
     image: "/html.jpg",
     description: `Приклад вестки з етапу вивчення HTML + CSS`,
     url: "https://bodik87.github.io/other-projects/sites/The-box/index.html",
   },
   {
-    id: 5,
+    id: 6,
     title: "Верстка HTML + CSS",
     image: "/html2.jpg",
     description: `Приклад вестки з етапу вивчення HTML + CSS`,
